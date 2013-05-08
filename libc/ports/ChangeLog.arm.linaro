@@ -1,0 +1,12 @@
+2013-06-10  Will Newton  <will.newton@linaro.org>
+
+	* sysdeps/arm/armv7/multiarch/Makefile: New file.
+	* sysdeps/arm/armv7/multiarch/aeabi_memcpy.c: Likewise.
+	* sysdeps/arm/armv7/multiarch/ifunc-impl-list.c: Likewise.
+	* sysdeps/arm/armv7/multiarch/memcpy.S: Likewise.
+	* sysdeps/arm/armv7/multiarch/memcpy_impl.S: Likewise.
+	* sysdeps/arm/armv7/multiarch/memcpy_neon.S: Likewise.
+	* sysdeps/arm/armv7/multiarch/memcpy_vfp.S: Likewise.
+	* sysdeps/arm/armv7/configure.in: Likewise.
+	* sysdeps/arm/armv7/configure: Generated.
+
