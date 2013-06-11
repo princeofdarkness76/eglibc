@@ -1,3 +1,7 @@
+2013-06-11  Will Newton  <will.newton@linaro.org>
+
+	* sysdeps/arm/sysdeps.h: Add PC_OFS macro.
+
 2013-06-10  Will Newton  <will.newton@linaro.org>
 
 	* sysdeps/arm/armv7/multiarch/Makefile: New file.

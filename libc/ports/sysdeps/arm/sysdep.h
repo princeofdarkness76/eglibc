@@ -116,3 +116,10 @@
 	.eabi_attribute 24, 1
 
 #endif	/* __ASSEMBLER__ */
+
+/* This number is the offset from the pc at the current location.  */
+#ifdef __thumb__
+# define PC_OFS  4
+#else
+# define PC_OFS  8
+#endif
