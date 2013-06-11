@@ -118,7 +118,7 @@
 #endif	/* __ASSEMBLER__ */
 
 /* This number is the offset from the pc at the current location.  */
-#ifdef __thumb__
+#if defined(__thumb__) && !defined(__ASSEMBLER__)
 # define PC_OFS  4
 #else
 # define PC_OFS  8
