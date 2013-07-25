@@ -1,3 +1,11 @@
+2013-07-25  Will Newton  <will.newton@linaro.org>
+
+        * sysdeps/aarch64/strcmp.S: Move from obsolete ports
+	top-level directory to fix mis-merge.
+        * sysdeps/aarch64/strlen.S: Likewise.
+        * sysdeps/aarch64/bzero.S: Likewise.
+        * sysdeps/aarch64/memmove.S: Likewise.
+
 2013-01-23  Marcus Shawcroft  <marcus.shawcroft@linaro.org>
 
         * sysdeps/aarch64/strncmp.S: New file.
