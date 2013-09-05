@@ -1,5 +1,9 @@
 2013-09-05  Will Newton  <will.newton@linaro.org>
 
+	* version.h: Bump version.
+
+2013-09-05  Will Newton  <will.newton@linaro.org>
+
 	 eglibc Linaro 2.18-2013.09 released.
 
 	* version.h: Update VERSION.
