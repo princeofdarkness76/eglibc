@@ -1,3 +1,9 @@
+2014-03-07  Marcus Shawcroft  <marcus.shawcroft@arm.com>
+
+	* sysdeps/aarch64/fpu/feenablxcpt.c (feenableexcept): Detect and
+	error absence of trapping exception support.
+	* sysdeps/aarch64/fpu/fesetenv.c (fesetenv): Likewise.
+
 2014-04-22  Will Newton  <will.newton@linaro.org>
 	    Venkataramanan Kumar  <venkataramanan.kumar@linaro.org>
 
