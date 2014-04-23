@@ -1,3 +1,7 @@
+2014-05-09  Will Newton  <will.newton@linaro.org>
+
+	* sysdeps/arm/armv7/strcmp.S: New file.
+
 2014-05-14  Joseph Myers  <joseph@codesourcery.com>
 
 	* sysdeps/arm/fclrexcpt.c (__feclearexcept): Rename to
