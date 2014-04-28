@@ -1,3 +1,9 @@
+2014-04-28  Wilco  <wdijkstr@arm.com>
+
+	* sysdeps/arm/fenv_private.h: New file.
+	* sysdeps/arm/math_private.h: New file.
+	* sysdeps/arm/fpu_control.h: Add _FPU_MASK_NCZV and _FPU_MASK_EXCEPT.
+
 2014-02-25  Will Newton  <will.newton@linaro.org>
 
 	* sysdeps/arm/__longjmp.S: Include stap-probe.h.
