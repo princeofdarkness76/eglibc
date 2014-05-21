@@ -1,3 +1,8 @@
+2014-05-21  Richard Henderson  <rth@redhat.com>
+
+	* sysdeps/unix/sysv/linux/aarch64/sysdep.h [RTLD_PRIVATE_ERRNO]
+	(SYSCALL_ERROR_HANDLER): Fold add insn into str offset.
+
 2014-06-02  Wilco  <wdijkstr@arm.com>
 
 	* sysdeps/aarch64/fpu/fpu_control.h (_FPU_SETCW): Remove ISB after
