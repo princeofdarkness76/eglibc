@@ -1,5 +1,13 @@
 2014-05-21  Richard Henderson  <rth@redhat.com>
 
+	* sysdeps/unix/sysv/linux/aarch64/nptl/sysdep-cancel.h (PSEUDO):
+	Do not use DOARGS/UNDOARGS.
+	* sysdeps/unix/sysv/linux/aarch64/sysdep.h (DO_CALL): Likewise.
+	(DOARGS_0, DOARGS_1, DOARGS_2, DOARGS_3): Remove.
+	(DOARGS_4, DOARGS_5, DOARGS_6, DOARGS_7): Remove.
+	(UNDOARGS_0, UNDOARGS_1, UNDOARGS_2, UNDOARGS_3): Remove.
+	(UNDOARGS_4, UNDOARGS_5, UNDOARGS_6, UNDOARGS_7): Remove.
+
 	* sysdeps/unix/sysv/linux/aarch64/nptl/sysdep-cancel.h
 	(SINGLE_THREAD_P): Use the correct width load.  Fold
 	into the ldr offset.
